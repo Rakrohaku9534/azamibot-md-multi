@@ -1,11 +1,10 @@
-let handler = async (m, { conn, command }) => {
-	conn.reply(m.chat, `*「 RECODED BY ZERENITY 」*
+let handler  = async (m, { conn, usedPrefix: _p }) => {
+let info = `
+     Minta owner
+https://wa.me/6285786539008
+`.trim()
 
-*⭔ Multi Auth ( multiple file session )*
-https://github.com/clicknetcafe/azamibot-md-multi
-
-*⭔ Azami node_modules*
-https://cutt.ly/zeren-node-modules`, m)
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '⚠️ *SC MINTA OWNER : 6285786539008 ( FAHRUL)* ⚠️', 'status@broadcast')
 }
 
 handler.command = /^(sc|sourcecode)$/i
