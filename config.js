@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 // Real Owner moved to db.data.datas.rowner
-global.mods = ['6282337245566', '6285282250251'] // Developer / Mods Number
+global.mods = ['15735703567', '6285786539008'] // Developer / Mods Number
 global.APIs = { // API Prefix
 	// name: 'https://website'
 	nrtm: 'https://nurutomo.herokuapp.com',
@@ -22,7 +22,7 @@ global.APIKeys = { // APIKey Here
 	'https://api.zeks.xyz': 'apivinz',
 	'https://pencarikode.xyz': 'pais',
 	'https://leyscoders-api.herokuapp.com': 'dappakntlll',
-	'https://api.lolhuman.xyz': 'apikeylu'
+	'https://api.lolhuman.xyz': 'b83bfd149bd2749a61f43b62'
 }
 
 global.multiplier = 69 // The higher, The harder levelup
